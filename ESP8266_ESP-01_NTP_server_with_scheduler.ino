@@ -114,7 +114,7 @@ void loop() {
     stopHourString = "00";
   }  
   stopMin = stopMinString.toInt();  
-  if(stopMin < 0 || stopMin > 23){
+  if(stopMin < 0 || stopMin > 59){
     stopMin = 0;
     stopMinString = "00";
   }  
