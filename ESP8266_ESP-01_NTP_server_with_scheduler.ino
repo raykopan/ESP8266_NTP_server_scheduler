@@ -119,7 +119,7 @@ void loop() {
     stopMinString = "00";
   }  
   
-  Serial.println("scheduler is started!");
+  Serial.println("Scheduler is started!");
   Serial.print("Start Time ");
   Serial.print(startHour);
   Serial.print(":");
