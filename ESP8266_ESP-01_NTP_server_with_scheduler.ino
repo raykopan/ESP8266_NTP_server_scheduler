@@ -230,7 +230,7 @@ String started_html() {
  ptr += "</style>\n";
  ptr += "</head><body>\n"; 
  ptr += "<h1>ESP8266 NodeMCU</h1>\n";
- ptr += "<p>scheduler is started!</p>";
+ ptr += "<p>Scheduler is started!</p>";
  ptr += "</body></html>\n";
  return ptr;
 }
@@ -246,7 +246,7 @@ String stopped_html() {
  ptr += "</style>\n";
  ptr += "</head><body>\n"; 
  ptr += "<h1>ESP8266 NodeMCU</h1>\n";
- ptr += "<p>scheduler is stopped!</p>";
+ ptr += "<p>Scheduler is stopped!</p>";
  ptr += "</body></html>\n";
  return ptr;
 }
