@@ -199,7 +199,7 @@ void myclock(){
  ptr += minutesString;
  ptr += " h";
  ptr += "</p>";
- ptr += "<p>scheduler is ";
+ ptr += "<p>Scheduler is ";
  ptr += schedulerStatus;
  ptr += "</p>"; 
  ptr += "<h2>Scheduler Settings</h2>\n";
